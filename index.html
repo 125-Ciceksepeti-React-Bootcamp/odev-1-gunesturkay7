@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <script src="app.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- NAVBAR -->
+      <nav class="row justify-space-between align-items-center">
+        <div class="column">
+          <img src="./assets/logo.svg" alt="" / class="nav-logo">
+        </div>
+        <div class="column">
+          <div class="search-box">
+            <input type="text" placeholder="Search" />
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+        <div class="column">
+          <div class="nav-profile-settings">
+            <img src="./assets/profile-puc.jpg" alt="" />
+          </div>
+        </div>
+      </nav>
+      <!-- END OF NAVBAR -->
+      <!-- SIDEBAR -->
+      <div class="sidebar">
+        <ul class="sidebar-menu-list d-flex flex-direction-column">
+          <li class="sidebar-menu-item">
+            <a href="" class="sidebar-menu-link cards-btn">
+              <i class="far fa-address-card"></i>
+              <span>Cards</span>
+            </a>
+          </li>
+          <li class="sidebar-menu-item form-btn">
+            <a href="" class="sidebar-menu-link">
+              <i class="fab fa-wpforms"></i>
+              <span>Form</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- END OF SIDEBAR -->
+      <div class="content-wrapper">
+        <div class="content-container">
+          <!-- CARDS -->
+          <div class="cards display-none">
+            <!-- <div class="card">
+              <img src="https://via.placeholder.com/600/771796" alt="" /
+              class="card-img">
+              <h3 class="card-header">Best in class</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatibus iusto assumenda quasi alias totam ipsum blanditiis,
+                libero ipsam nisi in! Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Sapiente possimus commodi delectus. Libero vel
+                voluptate aut accusantium numquam consequuntur. Officia.
+              </p>
+              <a href="#" class="card-btn">Here's Why</a>
+            </div> -->
+          </div>
+          <!-- END OF CARDS -->
+          <!-- FORM -->
+          <div class="form-control">
+            <form action="" id='myForm'>
+              <div class="input-box d-flex">
+                <label for="company">Company :</label>
+                <input type="text" id="company" name="asd" />
+              </div>
+              <div class="input-box d-flex">
+                <label for="firstName">First Name :</label>
+                <input type="text" id="firstName" />
+              </div>
+              <div class="input-box d-flex">
+                <label for="lastName">Last Name :</label>
+                <input type="text" id="lastName" />
+              </div>
+              <div class="input-box d-flex">
+                <label for="email">E-mail Adress :</label>
+                <input type="text" id="email" />
+              </div>
+              <div class="input-box d-flex">
+                <label for="title">Title :</label>
+                <input type="text" id="title" />
+              </div>
+              <div class="input-box d-flex">
+                <label for="phone">Phone :</label>
+                <input type="text" id="phone" />
+              </div>
+              <div class="input-box check-box d-flex">
+                <label for="registration-status">Cancel Registration :</label>
+                <input type="checkbox" id="registration-status" />
+              </div>
+              <div class="input-box date d-flex">
+                <label for="date">252 Training Session 2010 :</label>
+                <select name="date" id="date">
+                  <option value="2019">2019</option>
+                  <option value="2020">2020</option>
+                  <option value="2021">2021</option>
+                  <option value="2020">2020</option>
+                </select>
+              </div>
+              <div class="job-function d-flex">
+                <label for="">Job Function :</label>
+
+                <div class="column">
+                  <div class="row">
+                    <div class="column">
+                      <input type="radio" id="campaign-management" />
+                      <label for="campaign-management"
+                        >Campaign Management</label
+                      >
+                    </div>
+                    <div class="">
+                      <input type="radio" id="crm-administration" />
+                      <label for="crm-administration">Crm Administration</label>
+                    </div>
+                    <div class="">
+                      <input type="radio" id="e-mail" />
+                      <label for="e-mail">E-mail Deployment</label>
+                    </div>
+                    <div class="">
+                      <input type="radio" id="partner" />
+                      <label for="partner">Partner</label>
+                    </div>
+                    <div class="">
+                      <input type="radio" id="employee" />
+                      <label for="employee">Employee</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="input-box d-flex">
+                <label for="dietarty">Dietary Requirements : </label>
+                <input type="text" />
+              </div>
+              <div class="input-box text-box d-flex">
+                <label for="expectations">Expectations?</label>
+                <textarea name="" id="expectations"></textarea>
+              </div>
+
+              <div class="button-container d-flex">
+                <button type="submit" id="form-submit" />Submit</button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-wrapper">
+              
+              <div class="modal-overlay"></div>
+              <div class="row modal flex-direction-column">
+                <span class="close-btn">X</span>
+                  <h1>Informations</h1>
+                  <div class="modal-content"></div>
+              </div>
+         </div>
+          <!-- END OF FORM -->
+          
+        </div>
+
+      </div>
+      
+    </div>
+    
+  </body>
+</html>

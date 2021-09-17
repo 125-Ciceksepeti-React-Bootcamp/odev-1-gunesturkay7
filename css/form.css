@@ -1,0 +1,60 @@
+.form-control {
+  padding: 1rem;
+  background: #006644;
+  border-radius: 0.3rem;
+  width: 600px;
+  margin-top: var(--height-navbar);
+  margin-left: 3rem;
+}
+.input-box {
+  height: 50px;
+}
+.input-box label {
+  flex-basis: 30%;
+  color: #fff;
+}
+.input-box input {
+  flex-basis: 70%;
+  height: 30px;
+}
+.check-box input {
+  flex-basis: 5%;
+  height: 20px;
+}
+.input-box select {
+  flex-basis: 70%;
+  height: 30px;
+}
+.job-function {
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.job-function label {
+  flex-basis: 30%;
+  color: #fff;
+}
+.job-function div {
+  flex-basis: 70%;
+  flex-direction: column;
+  color: #fff;
+}
+.text-box {
+  height: max-content;
+  align-items: flex-start;
+}
+.input-box textarea {
+  flex-basis: 70%;
+  height: 100px;
+}
+.button-container button {
+  margin: 20px auto;
+  padding: 6px 12px;
+  color: #e6fcff;
+  background-color: #006644;
+  cursor: pointer;
+}
+.button-container button:hover {
+  box-shadow: 0.5rem 0.5rem 0.1rem rgba(0, 0, 0, 0.7);
+  transform: translateY(-3px);
+  background-color: #470a6a;
+}

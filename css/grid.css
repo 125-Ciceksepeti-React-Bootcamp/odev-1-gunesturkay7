@@ -1,0 +1,26 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.justify-space-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+
+.content-wrapper {
+  width: 100%;
+  z-index: -1;
+  background-color: #00a3bf;
+  padding-left: var(--height-navbar) auto 0;
+  padding: 2rem 0;
+}
+.content-container {
+  background-color: #00a3bf;
+  padding-left: calc(var(--width-sidebar));
+}
